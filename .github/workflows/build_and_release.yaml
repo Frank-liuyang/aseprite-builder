@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Fetch Aseprite release link
         id: aseprite-link
-        uses: a1393323447/fetch-release@main
+        uses: Frank-liuyang/fetch-release@main
         with:
             group: aseprite
             repo: aseprite
